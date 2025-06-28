@@ -1,0 +1,17 @@
+@use "grid";
+@use "variables" as v;
+@use "reset";
+@use "typography";
+
+//Components
+@use "header";
+
+
+//Section
+@use "section/related-section";
+@use "section/tutor-section";
+
+//Part
+@use "part/related-post";
+@use "part/tutor-post";
+

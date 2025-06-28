@@ -1,0 +1,22 @@
+.related-posts{
+  background: linear-gradient(
+                  to top,
+                  #000000 0%,
+                  #ff4500 25%,
+                  #ff8c00 50%,
+                  #ffd700 75%,
+                  #ffffff 100%
+  );
+  box-shadow: 0 0 20px 5px rgba(255, 69, 0, 0.8);
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -12px;
+  }
+  &__post{
+    width: 33.3333%;
+    padding: 0 12px;
+    margin-bottom: 24px;
+  }
+}

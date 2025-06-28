@@ -1,0 +1,37 @@
+@use "variables" as v;
+
+*{
+  box-sizing: border-box;
+  font-family: v.$main-font;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+}
+
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: v.$link-color;
+
+  &:hover {
+    color: v.$hover-link-color;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+section{
+  margin: v.$section-margin;
+}

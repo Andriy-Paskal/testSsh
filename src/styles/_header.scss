@@ -1,0 +1,30 @@
+@use "mixin";
+@use "variables" as v;
+
+.header {
+  padding: 16px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    @include mixin.clean-list;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 16px;
+      color: v.$main-text-color;
+      font-weight: 700;
+
+      &:hover {
+        color: v.$hover-link-color;
+      }
+    }
+  }
+}
