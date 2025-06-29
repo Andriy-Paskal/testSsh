@@ -214,9 +214,9 @@ section {
 }
 .tutor__post-title a {
   display: block;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
-  color: red;
+  color: lightseagreen;
   line-height: 1.375;
   margin: 0;
 }
